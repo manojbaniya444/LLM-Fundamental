@@ -19,10 +19,14 @@ Hence researchers developed `Bahdanau Attention` for RNNs so that the decoder ca
 
 ## A simple Self Attention
 
+A simple self attention mechanism without any learnable weights.
+
 - [Self Attention without Trainable Weights](./01_simple_sa.ipynb)
   ![Simple Self Attention](../images/Simple%20sa.png)
 
 ## Self Attention
+
+Self Attention with trainable weight so that model can learn
 
 - [Self Attention with Trainable Weights](./02_self_attention.ipynb)
 
@@ -30,9 +34,13 @@ Hence researchers developed `Bahdanau Attention` for RNNs so that the decoder ca
 
 ## Causal Self Attention
 
+A causal self attention to mask the future tokens from accessing by the token
+
 - [Causal Self Attention](./03_causal_sa.pynb)
 
 ## MultiHead Self Attention
+
+A multihead version of self attention to get the multiple perspective and understaning of context
 
 - [MultiHead Self Attention](./04_multihead_attention.ipynb)
 
