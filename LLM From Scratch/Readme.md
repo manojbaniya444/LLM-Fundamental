@@ -13,3 +13,10 @@ Large Language Model is trained with the task on `next word prediction` given th
 Here data is prepared to train our model with our **context size**, **embedding dimension** and **batch size**.
 
 - [Tokenizing Text](./1.%20working%20with%20text/tokenization.ipynb)
+
+## Attention Mechanism
+
+- [A simple attention mechanism](./2.Attention%20Mechanism/01_simple_sa.ipynb)
+- [Self Attention](./2.Attention%20Mechanism/02_self_attention.ipynb)
+- [Causal Self Attention](./2.Attention%20Mechanism/03_causal_sa.ipynb)
+- [MultiHead Self Attention](./2.Attention%20Mechanism/04_multihead_attention.ipynb)
