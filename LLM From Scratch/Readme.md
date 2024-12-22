@@ -16,7 +16,16 @@ Here data is prepared to train our model with our **context size**, **embedding 
 
 ## Attention Mechanism
 
+Understanding Attention Mechanism
+
 - [A simple attention mechanism](./2.Attention%20Mechanism/01_simple_sa.ipynb)
 - [Self Attention](./2.Attention%20Mechanism/02_self_attention.ipynb)
 - [Causal Self Attention](./2.Attention%20Mechanism/03_causal_sa.ipynb)
 - [MultiHead Self Attention](./2.Attention%20Mechanism/04_multihead_attention.ipynb)
+
+## Training GPT
+
+Here Implementing GPT2 Architecture and PreTraining from Scratch to generate next token
+
+- [GPT Model](./3.%20GPT/01_GPT.ipynb)
+- [PreTraining GPT](./3.%20GPT/02_PreTraining_GPT.ipynb)
