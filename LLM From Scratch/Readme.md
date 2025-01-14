@@ -29,3 +29,15 @@ Here Implementing GPT2 Architecture and PreTraining from Scratch to generate nex
 
 - [GPT Model](./3.%20GPT/01_GPT.ipynb)
 - [PreTraining GPT](./3.%20GPT/02_PreTraining_GPT.ipynb)
+
+## Fine Tuning for Text Classification
+
+Fine tuning the pretrained GPT2 Model for spam classification.
+
+- [Fine Tuning for Text Classification](./4.%20Fine%20Tuning%20for%20Classification/FineTuning%20-Classification.ipynb)
+
+## Instruction Fine Tuning
+
+Fine tuning the pretrained GPT2 medium model for Instruction following.
+
+- [Instruction Fine Tuning](./5.%20Instruction%20Fine%20Tuning/Instruction-FineTune.ipynb)
