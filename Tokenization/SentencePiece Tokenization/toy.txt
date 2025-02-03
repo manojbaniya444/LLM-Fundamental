@@ -1,0 +1,7 @@
+## Sentence Piece Tokenization
+Used by **Llama** and **Mistral**
+
+Sentencepiece runs **Byte Pair Encoding** on the Unicode code points directly. It then has an option **character_coverate** for what to do with very rare codepoints that appear very few times, and it either mapts them onto an **UNK** token or if **byte_fallback** is turned on. It encoded them with **utf-8** and then encodes the raw bytes instead. It is the difference between BPE and it.
+
+- Tiktoken encodes to utf-8 and then BPEs bytes
+- Sentencepiece BPEs the code points and optionally falls back to utf-8 bytes for rare code points (rarity is determined by character_coverate hyperparameter), which then get translated to byte tokens.
